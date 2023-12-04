@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="data preprocessing jupyter">
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="english everything">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
       <workItem from="1701690737546" duration="269000" />
       <workItem from="1701691017189" duration="674000" />
       <workItem from="1701691704630" duration="1280000" />
-      <workItem from="1701693006141" duration="4852000" />
+      <workItem from="1701693006141" duration="9706000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -112,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701703033506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nice plot bb">
+      <option name="closed" value="true" />
+      <created>1701703278739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701703278739</updated>
+    </task>
+    <task id="LOCAL-00005" summary="english everything">
+      <option name="closed" value="true" />
+      <created>1701703529642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701703529642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data preprocessing jupyter" />
-    <option name="LAST_COMMIT_MESSAGE" value="data preprocessing jupyter" />
+    <MESSAGE value="nice plot bb" />
+    <MESSAGE value="english everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="english everything" />
   </component>
 </project>
