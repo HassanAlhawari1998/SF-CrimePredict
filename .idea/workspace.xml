@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1701690737546" duration="269000" />
       <workItem from="1701691017189" duration="674000" />
       <workItem from="1701691704630" duration="1280000" />
-      <workItem from="1701693006141" duration="11197000" />
+      <workItem from="1701693006141" duration="12134000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -136,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701710289112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1701713267198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701713267198</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1701713275503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701713275503</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
