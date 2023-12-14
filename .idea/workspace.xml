@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fixes">
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="transform &quot;dates&quot; from object into datetime&#10;extract the information from &quot;Dates&quot; to create new features &quot;year, quarter, month, day, hour&quot;&#10;added two time plots:&#10;1) incidents per year&#10;2) incidents per quarter per year">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +27,14 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Tobiwue"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tobiwue&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,6 +52,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -88,6 +92,8 @@
       <workItem from="1701691017189" duration="674000" />
       <workItem from="1701691704630" duration="1280000" />
       <workItem from="1701693006141" duration="13578000" />
+      <workItem from="1702211633481" duration="5463000" />
+      <workItem from="1702481857374" duration="5753000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -177,7 +183,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701714961758</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="delete unnecessary lines">
+      <option name="closed" value="true" />
+      <created>1701968674301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968674301</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete unnecessary lines 2">
+      <option name="closed" value="true" />
+      <created>1701968780225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968780225</updated>
+    </task>
+    <task id="LOCAL-00014" summary="transform &quot;dates&quot; from object into datetime&#10;extract the information from &quot;Dates&quot; to create new features &quot;year, quarter, month, day, hour&quot;&#10;added two time plots:&#10;1) incidents per year&#10;2) incidents per quarter per year">
+      <option name="closed" value="true" />
+      <created>1702216557015</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702216557015</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +229,9 @@
     <MESSAGE value="nice plot bb" />
     <MESSAGE value="english everything" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="delete unnecessary lines" />
+    <MESSAGE value="delete unnecessary lines 2" />
+    <MESSAGE value="transform &quot;dates&quot; from object into datetime&#10;extract the information from &quot;Dates&quot; to create new features &quot;year, quarter, month, day, hour&quot;&#10;added two time plots:&#10;1) incidents per year&#10;2) incidents per quarter per year" />
+    <option name="LAST_COMMIT_MESSAGE" value="transform &quot;dates&quot; from object into datetime&#10;extract the information from &quot;Dates&quot; to create new features &quot;year, quarter, month, day, hour&quot;&#10;added two time plots:&#10;1) incidents per year&#10;2) incidents per quarter per year" />
   </component>
 </project>
