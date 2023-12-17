@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="clean outliers" />
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="clean outliers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +99,8 @@
       <workItem from="1702809392491" duration="13243000" />
       <workItem from="1702836311083" duration="113000" />
       <workItem from="1702836964436" duration="855000" />
+      <workItem from="1702837867580" duration="199000" />
+      <workItem from="1702838091735" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -241,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702837837842</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="clean outliers">
+      <option name="closed" value="true" />
+      <created>1702837989684</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837989684</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
