@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="edit">
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="edit and implement picture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
     </list>
@@ -101,7 +101,8 @@
       <workItem from="1702836964436" duration="855000" />
       <workItem from="1702837867580" duration="199000" />
       <workItem from="1702838091735" duration="694000" />
-      <workItem from="1702839285891" duration="675000" />
+      <workItem from="1702839285891" duration="1676000" />
+      <workItem from="1702906849118" duration="4421000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -263,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702838794549</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="edit and implement picture">
+      <option name="closed" value="true" />
+      <created>1702840354244</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702840354244</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +300,7 @@
     <MESSAGE value="plot for map to show distribution of crimes&#10;html file will be saved locally because its to big for git" />
     <MESSAGE value="clean outliers" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="edit and implement picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit and implement picture" />
   </component>
 </project>
