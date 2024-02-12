@@ -6,9 +6,7 @@
         <entry key="$PROJECT_DIR$/.idea/SF-CrimePredict.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="argv" value="notebook" />
               <option name="managed" value="true" />
-              <option name="sdkName" value="" />
             </JupyterConnectionParameters>
           </value>
         </entry>
