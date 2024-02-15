@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="added sources">
-      <change beforePath="$PROJECT_DIR$/feature_selects.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selects.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_with_feature_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Support Vector Machine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Support Vector Machine.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="notebook://C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict/Support Vector Machine.ipynb" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -70,6 +77,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,6 +86,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,6 +121,8 @@
       <workItem from="1707402210676" duration="1000" />
       <workItem from="1707746479915" duration="696000" />
       <workItem from="1707757671286" duration="694000" />
+      <workItem from="1707929247676" duration="2298000" />
+      <workItem from="1707931924159" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
