@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 
 def loadData():
-    data_path = 'train_with_feature_test.csv'
+    data_path = 'train_with_feature.csv'
     data = pd.read_csv(data_path)
     data_cleaned = data.dropna()
 
