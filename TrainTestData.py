@@ -52,5 +52,11 @@ def loadData():
     # Hier ist ein einfaches Beispiel, wie man Stratified Sampling für einen Datensatz durchführt,
     # wobei angenommen wird, dass Sie bereits NumPy, pandas, oder ähnliche Bibliotheken für die Datenmanipulation und Scikit - learn installiert haben:
     X_train, X_test, y_train, y_test = train_test_split(X_final, y, test_size=0.2, stratify=y, random_state=42)
+    label_encoder = LabelEncoder()
+
+    label_encoder.fit(y_train)
+    # y_test = label_encoder.transform(y_test)
+    y_train = label_encoder.transform(y_train)
+    y_test = label_encoder.transform(y_test)
 
     return X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column
