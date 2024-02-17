@@ -11,6 +11,9 @@ def loadData():
     data_path = 'train_with_feature.csv'
     data = pd.read_csv(data_path, sep=",")
     data_cleaned = data.dropna()
+    sample_size = 20000
+    data_cleaned = data_cleaned.sample(n=sample_size, random_state=42)
+
 
     feature_columns = [feature.value for feature in FeatureColumns]
     target_column = 'Category'
