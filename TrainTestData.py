@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 def loadData():
     data_path = 'train_with_feature.csv'
-    data = pd.read_csv(data_path)
+    data = pd.read_csv(data_path, sep=",")
     data_cleaned = data.dropna()
 
     feature_columns = [feature.value for feature in FeatureColumns]
@@ -36,7 +36,6 @@ def loadData():
     X_final = pd.DataFrame(X_processed, columns=all_feature_names)
 
 
-
     # Aufteilung von Daten für Training und Test
 
     # Stratified Sampling ist eine Technik, die sicherstellt, dass die Stichproben,
@@ -51,4 +50,4 @@ def loadData():
     # wobei angenommen wird, dass Sie bereits NumPy, pandas, oder ähnliche Bibliotheken für die Datenmanipulation und Scikit - learn installiert haben:
     X_train, X_test, y_train, y_test = train_test_split(X_final, y, test_size=0.2, stratify=y, random_state=42)
 
-    return X_train, X_test, y_train, y_test, data, feature_columns, categorical_features, target_column
+    return X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column
