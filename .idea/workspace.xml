@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="added sources">
-      <change afterPath="$PROJECT_DIR$/Features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_with_feature_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helper/Evaluate_XGBoostModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helper/Perform_CrossVal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helper/Perform_GridSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Enum/Features.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Support Vector Machine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Support Vector Machine.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainTestData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_with_feature_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/train_with_feature_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_sanfrancisco_filtered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/weather_sanfrancisco_filtered.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,24 +74,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\Dataset" />
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\helper" />
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\enum" />
       <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict" />
     </key>
   </component>

@@ -3,17 +3,16 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
-from Features import FeatureColumns
+from Enum.Features import FeatureColumns
 from sklearn.model_selection import train_test_split
 
 
 def loadData():
-    data_path = 'train_with_feature.csv'
+    data_path = '../Dataset/train_with_feature.csv'
     data = pd.read_csv(data_path, sep=",")
     data_cleaned = data.dropna()
     sample_size = 20000
     data_cleaned = data_cleaned.sample(n=sample_size, random_state=42)
-
 
     feature_columns = [feature.value for feature in FeatureColumns]
     target_column = 'Category'
@@ -37,7 +36,6 @@ def loadData():
 
     all_feature_names = np.concatenate([numerical_features, encoded_feature_names])
     X_final = pd.DataFrame(X_processed, columns=all_feature_names)
-
 
     # Aufteilung von Daten für Training und Test
 
