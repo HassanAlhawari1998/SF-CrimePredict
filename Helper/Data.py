@@ -5,10 +5,11 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 from Enum.Features import FeatureColumns
 from sklearn.model_selection import train_test_split
-
+import sys
+sys.path.append("Helper")
 
 def loadData():
-    data_path = '../Dataset/train_with_feature.csv'
+    data_path = 'Dataset/train_with_feature.csv'
     data = pd.read_csv(data_path, sep=",")
     data_cleaned = data.dropna()
     sample_size = 20000
