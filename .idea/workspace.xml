@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="added sources">
-      <change afterPath="$PROJECT_DIR$/Helper/Evaluate_XGBoostModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helper/Perform_CrossVal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helper/Perform_GridSearch.py" afterDir="false" />
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fixed path">
+      <change afterPath="$PROJECT_DIR$/Assets/cleaned.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Enum/Features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainTestData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_with_feature_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/train_with_feature_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_sanfrancisco_filtered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/weather_sanfrancisco_filtered.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_selects.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selects.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +69,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HassanAlhawari/Uni/Maschine Learning/SF-CrimePredict&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\Assets" />
       <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\Dataset" />
+      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\Helper" />
       <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\helper" />
       <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict\enum" />
-      <recent name="C:\Users\HassanAlhawari\Uni\Maschine Learning\SF-CrimePredict" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,6 +127,9 @@
       <workItem from="1707757671286" duration="694000" />
       <workItem from="1707929247676" duration="2298000" />
       <workItem from="1707931924159" duration="7845000" />
+      <workItem from="1708363249190" duration="2009000" />
+      <workItem from="1708523372399" duration="1803000" />
+      <workItem from="1708627262310" duration="4700000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -328,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707758279364</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="code refactor and more model testing">
+      <created>1708347689967</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708347689967</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fixed path">
+      <created>1708523924043</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708523924043</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +371,8 @@
     <MESSAGE value="edit" />
     <MESSAGE value="edit and implement picture" />
     <MESSAGE value="added sources" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sources" />
+    <MESSAGE value="code refactor and more model testing" />
+    <MESSAGE value="fixed path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed path" />
   </component>
 </project>
