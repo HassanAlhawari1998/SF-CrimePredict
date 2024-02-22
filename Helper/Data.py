@@ -58,4 +58,4 @@ def loadData():
     y_train = label_encoder.transform(y_train)
     y_test = label_encoder.transform(y_test)
 
-    return X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column
+    return X ,y ,X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column
