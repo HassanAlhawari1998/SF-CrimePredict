@@ -9,12 +9,11 @@ import sys
 sys.path.append("Helper")
 
 def loadData():
-    label_encoder = LabelEncoder()
     data_path = 'Dataset/train_with_feature.csv'
     data = pd.read_csv(data_path, sep=",")
     data_cleaned = data.dropna()
-    sample_size = 20000
-    data_cleaned = data_cleaned.sample(n=sample_size, random_state=42)
+    #sample_size = 20000
+    #data_cleaned = data_cleaned.sample(n=sample_size, random_state=42)
 
     feature_columns = [feature.value for feature in FeatureColumns]
     target_column = 'Category'
@@ -43,7 +42,7 @@ def loadData():
 
     # Stratified Sampling ist eine Technik, die sicherstellt, dass die Stichproben,
     # die für das Training und Testen von maschinellen Lernmodellen verwendet werden,
-    # die gleiche Verteilung der Klassen(oder eines anderen wichtigen Merkmals) aufweisen
+    # die gleiche Verteilung der Klassen (oder eines anderen wichtigen Merkmals) aufweisen
     # wie der gesamte Datensatz.
     # Diese Methode ist besonders nützlich bei ungleichmäßig verteilten Klassen,
     # um Verzerrungen in den Trainings - und Testergebnissen zu vermeiden.
@@ -52,6 +51,7 @@ def loadData():
     # Hier ist ein einfaches Beispiel, wie man Stratified Sampling für einen Datensatz durchführt,
     # wobei angenommen wird, dass Sie bereits NumPy, pandas, oder ähnliche Bibliotheken für die Datenmanipulation und Scikit - learn installiert haben:
     X_train, X_test, y_train, y_test = train_test_split(X_final, y, test_size=0.2, stratify=y, random_state=42)
+    label_encoder = LabelEncoder()
 
     label_encoder.fit(y_train)
     # y_test = label_encoder.transform(y_test)
@@ -59,4 +59,4 @@ def loadData():
     y_test = label_encoder.transform(y_test)
     y = label_encoder.transform(y)
 
-    return X_final, y, X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column
+    return X_final, y, X_train, X_test, y_train, y_test, data_cleaned, feature_columns, categorical_features, target_column, label_encoder
