@@ -2,11 +2,11 @@
 SF-CrimePredict" prognostiziert Verbrechen in San Francisco, fokussiert auf Larceny, Assault, Drug, Vehicle Theft, Burglary. Der Ansatz umfasst deskriptive Datenanalyse, Merkmalsdefinition, Klassifikationsmodellierung mit Evaluierung und Vergleich. Ein klares, präzises Jupyter Notebook dokumentiert den Prozess
 # Projekt-Anforderungs-Checkliste für Regression
 * **Deskriptive Datenanalyse**
- - [x ] Eine deskriptive Analyse der Daten sollte durchgeführt werden.
+ - [x] Eine deskriptive Analyse der Daten sollte durchgeführt werden.
    - [x] Die Daten hinsichtlich der Datentypen analysieren
    - [x] Die Daten hinsichtlich der Wertebereiche analysieren
    - [x] Die Daten hinsichtlich fehlender Werte untersuchen
-   - [ x] Die Daten hinsichtlich inkorrekter Werte untersuchen
+   - [x] Die Daten hinsichtlich inkorrekter Werte untersuchen
  - [x] Visualisierung der Daten:
    - [x] Crime per Month
    - [x] Crime per Year
