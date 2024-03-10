@@ -10,7 +10,7 @@ def evaluate_xgb_model(X_train, y_train, X_test, y_test, best_params=None):
                                  eval_metric='mlogloss')
     xgb_clf.fit(X_train, y_train)
     y_pred = xgb_clf.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred, average='weighted')
+    accuracy = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='weighted')
     roc_auc = roc_auc_score(y_test, xgb_clf.predict_proba(X_test), multi_class='ovo', average='weighted')
 
