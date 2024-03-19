@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fixt typos">
-      <change beforePath="$PROJECT_DIR$/.idea/SF-CrimePredict.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SF-CrimePredict.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fix text and add pickels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" afterDir="false" />
     </list>
@@ -132,7 +130,8 @@
       <workItem from="1709557073443" duration="5160000" />
       <workItem from="1709819224137" duration="11309000" />
       <workItem from="1710073953017" duration="9900000" />
-      <workItem from="1710159467530" duration="846000" />
+      <workItem from="1710159467530" duration="1591000" />
+      <workItem from="1710861852168" duration="9840000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
@@ -370,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710096777206</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix text and add pickels">
+      <option name="closed" value="true" />
+      <created>1710161377485</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710161377485</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,6 +413,7 @@
     <MESSAGE value="adjusted training&#10;-confusion matrix&#10;-roc-curve&#10;-recall curve" />
     <MESSAGE value="results for preliminary testing" />
     <MESSAGE value="fixt typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixt typos" />
+    <MESSAGE value="fix text and add pickels" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix text and add pickels" />
   </component>
 </project>
