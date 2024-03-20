@@ -14,4 +14,4 @@ def evaluate_xgb_model(X_train, y_train, X_test, y_test, best_params=None):
     f1 = f1_score(y_test, y_pred, average='weighted')
     roc_auc = roc_auc_score(y_test, xgb_clf.predict_proba(X_test), multi_class='ovo', average='weighted')
 
-    return xgb_clf, accuracy, f1, roc_auc
+    return xgb_clf, accuracy, f1, roc_auc, y_pred
