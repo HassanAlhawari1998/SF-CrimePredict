@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892b3645-2f73-4ced-87eb-2432ef7fef41" name="Changes" comment="fixt typos">
+      <change afterPath="$PROJECT_DIR$/Helper/Evaluate_RandomForestModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SF-CrimePredict.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SF-CrimePredict.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Boosting XGBoost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random Forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Random Forest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_selects.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selects.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -133,6 +136,10 @@
       <workItem from="1709819224137" duration="11309000" />
       <workItem from="1710073953017" duration="9900000" />
       <workItem from="1710159467530" duration="846000" />
+      <workItem from="1710836180577" duration="1716000" />
+      <workItem from="1710843720649" duration="292000" />
+      <workItem from="1710844040863" duration="4533000" />
+      <workItem from="1710861763105" duration="32868000" />
     </task>
     <task id="LOCAL-00001" summary="data preprocessing jupyter">
       <option name="closed" value="true" />
