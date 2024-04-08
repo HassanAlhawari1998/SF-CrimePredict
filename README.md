@@ -20,16 +20,17 @@ SF-CrimePredict" prognostiziert Verbrechen in San Francisco, fokussiert auf Larc
     - [x] Anwendung des ersten Regressionsmodells.
     - [x] Kreuzvalidierung zur Optimierung der Hyperparameter.
     - [x] Evaluation der Modellqualität mit sinnvollen Metriken.
-    - [ ] Zusammenfassen der Ergebnisse
+    - [x] Zusammenfassen der Ergebnisse
           
   - **Modell 2: Random Forest Classifier**
-    - [ ] Anwendung des zweiten Regressionsmodells.
-    - [ ] Kreuzvalidierung zur Optimierung der Hyperparameter.
-    - [ ] Evaluation der Modellqualität mit sinnvollen Metriken.
-    - [ ] Zusammenfassen der Ergebnisse
+    - [x] Anwendung des zweiten Regressionsmodells.
+    - [x] Kreuzvalidierung zur Optimierung der Hyperparameter.
+    - [x] Evaluation der Modellqualität mit sinnvollen Metriken.
+    - [x] Zusammenfassen der Ergebnisse
 
 ## Vergleich der Ergebnisse
-- [ ] Vergleichen der Ergebnisse der drei Regressionsmodelle.
-  - [ ] Messung der Güte
-  - [ ] AUC
-  - [ ] ...
+- [x] Vergleichen der Ergebnisse der drei Regressionsmodelle.
+  - [x] Messung der Güte
+  - [x] Auswertung
+  - [x] Präsentation
+  - [x] Abschluss
